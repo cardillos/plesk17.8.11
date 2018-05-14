@@ -3,6 +3,7 @@
 
 Vagrant.configure("2") do |config|
 
+# Download vagrantbox from https://app.vagrantup.com/cardillos/boxes/plesk17
 config.vm.box = "cardillos/plesk17"
 config.ssh.username = "zeald"
 config.ssh.password = "admin"
