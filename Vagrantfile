@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
 
-config.vm.box = "ubuntu16"
+config.vm.box = "cardillos/plesk17"
 config.ssh.username = "zeald"
 config.ssh.password = "admin"
 
